@@ -1,0 +1,21 @@
+{
+    "name": "lichihua/packagist_init",    
+    "description": "RBAC 权限",
+    "authors": [
+        {
+            "name": "dash"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dash\\": ""
+        },
+        "files": [
+            "helper.php"
+        ]
+    }
+}
